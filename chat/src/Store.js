@@ -6,14 +6,8 @@ export const CTX = React.createContext();
 
 const initState = {
     topic1: [
-        {from: 'someone', msg: 'hey'},
-        {from: 'someone', msg: 'how are u'},
-        {from: 'someone', msg: 'good'},
     ],
     topic2: [
-        {from: 'othersomeone', msg: 'hello'},
-        {from: 'othersomeone', msg: 'im good'},
-        {from: 'othersomeone', msg: 'chilling'},
     ],
 }
 
