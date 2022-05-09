@@ -1,0 +1,86 @@
+{
+    "active": [
+        {
+            "property": {
+                "address": {
+                    "street": "Rando Street",
+                    "city": "Sacramento",
+                    "state": "CA"
+                },
+                "imageUrl": "lostround.png"
+            },
+            "moveInDate": "25 March 2022",
+            "rent": 400.00,
+            "deposit": {
+                "amount": 9000.00,
+                "type": "First, Last & Security"
+            },
+            "status": {
+                "message": "Awating Bank Processing",
+                "level": 2
+            }
+        },
+        {
+            "property": {
+                "address": {
+                    "street": "Sonic The Hedgehog Avenue",
+                    "city": "Austin",
+                    "state": "TX"
+                },
+                "imageUrl": "lostround.png"
+            },
+            "moveInDate": "14 May 2022",
+            "rent": 700.00,
+            "deposit": {
+                "amount": 6000.00,
+                "type": "First, Last"
+            },
+            "status": {
+                "message": "Payment Processed",
+                "level": 3
+            }
+        }
+    ],
+    "closed": [
+        {
+            "property": {
+                "address": {
+                    "street": "Tails Two Tails Street",
+                    "city": "Los Angeles",
+                    "state": "CA"
+                },
+                "imageUrl": "lostround.png"
+            },
+            "moveInDate": "16 June 2022",
+            "rent": 1500.00,
+            "deposit": {
+                "amount": 12000.00,
+                "type": "Complete"
+            },
+            "status": {
+                "message": "Payment Processed",
+                "level": 3
+            }
+        },
+        {
+            "property": {
+                "address": {
+                    "street": "What Is This Street",
+                    "city": "Sacramento",
+                    "state": "CA"
+                },
+                "imageUrl": "lostround.png"
+            },
+            "moveInDate": "25 April 2022",
+            "rent": 500.00,
+            "deposit": {
+                "amount": 7000.00,
+                "type": "First, Last & Security"
+            },
+            "status": {
+                "message": "Expired: No Payment Received",
+                "level": 1
+            }
+        }
+    ]
+}
