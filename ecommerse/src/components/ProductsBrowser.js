@@ -66,7 +66,7 @@ const ProductsBrowser = () => {
     return (
         <Container>
         {productsMockData.map(product => (
-                <Product>
+                <Product key={product.productSrc}>
                     <Badge  badgeContent={'-' + Math.round(product.sale * 100)} 
                                         color='error'
                                         anchorOrigin={{

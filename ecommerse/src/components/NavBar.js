@@ -11,6 +11,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircle from '@mui/icons-material/AccountCircle'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
 import MoreIcon from '@mui/icons-material/MoreVert'
+import List from '@mui/material/List'
+import ListItem from '@mui/material/ListItem'
+import ListItemButton from '@mui/material/ListItemButton'
+import ListItemText from '@mui/material/ListItemText'
+import Drawer from '@mui/material/Drawer';
 
 
 const NavBar = () => {
@@ -36,6 +41,12 @@ const NavBar = () => {
   const handleMobileMenuOpen = (event) => {
     setMobileMoreAnchorEl(event.currentTarget);
   };
+
+  const [state, setState] = React.useState(false)
+
+  const toggleDrawer = (open) => (event) => {
+      setState(open);
+  };   
 
   const menuId = 'primary-search-account-menu';
   const renderMenu = (
@@ -103,6 +114,7 @@ const NavBar = () => {
       <AppBar position="static">
         <Toolbar>
           <IconButton
+            onClick={toggleDrawer(true)}
             size="large"
             edge="start"
             color="inherit"
@@ -111,6 +123,27 @@ const NavBar = () => {
           >
             <MenuIcon />
           </IconButton>
+          <Drawer
+            open={state}
+            onClose={toggleDrawer(false)}
+          >
+            <Box
+              sx={{ width: 250 }}
+              role="presentation"
+              onClick={toggleDrawer(false)}
+              onKeyDown={toggleDrawer(false)}
+            >
+              <List>
+                {['All products', 'Shirts'].map((text, index) => (
+                  <ListItem key={text} disablePadding>
+                    <ListItemButton>
+                      <ListItemText primary={text} />
+                    </ListItemButton>
+                  </ListItem>
+                ))}
+              </List>
+            </Box>
+          </Drawer>
           <Typography
             variant="h4"
             noWrap
