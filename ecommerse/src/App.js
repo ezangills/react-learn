@@ -1,12 +1,13 @@
 import React from 'react'
 import NavBar from './components/NavBar';
 import ProductsBrowser from './components/ProductsBrowser';
+import productsMockData from './ProductsMockData.json'
 
 const App = () => {
   return(
     <div>
     <NavBar />
-    <ProductsBrowser />
+    <ProductsBrowser productsData={productsMockData} />
     </div>
   )
 }
