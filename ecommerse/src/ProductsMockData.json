@@ -6,7 +6,10 @@
         "initPrice": 2891.00,
         "imageSrc": "https://cdn1.ozone.ru/s3/multimedia-z/c500/6191931407.jpg",
         "productSrc": "https://www.ozon.ru/product/alcon-kontaktnye-linzy-dailies-total-1-30pk-2-50-8-5-14-1-137764418/",
-        "dateOfDelivery": "Послезавтра"
+        "dateOfDelivery": "Послезавтра",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
     },
     {
         "name": "Электрогриль Tefal Optigrill Elite GC750D30, 2000 Вт",
@@ -15,7 +18,10 @@
         "initPrice": 49740.00,
         "imageSrc": "https://cdn1.ozone.ru/s3/multimedia-f/c500/6308493447.jpg",
         "productSrc": "https://www.ozon.ru/product/elektrogril-tefal-optigrill-elite-gc750d30-2000-vt-322902169/",
-        "dateOfDelivery": "14 Мая"
+        "dateOfDelivery": "14 Мая",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
     },
     {
         "name": "Зубная паста Biorepair Pro White сохраняющая белизну",
@@ -24,7 +30,10 @@
         "initPrice": 790.00,
         "imageSrc": "https://cdn1.ozone.ru/s3/multimedia-b/c500/6126331139.jpg",
         "productSrc": "https://www.ozon.ru/product/zubnaya-pasta-biorepair-pro-white-sohranyayushchaya-beliznu-75-ml-185224180/",
-        "dateOfDelivery": "Послезавтра"
+        "dateOfDelivery": "Послезавтра",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
     },
     {
         "name": "Батарейки щелочные (алкалиновые) Duracell",
@@ -33,7 +42,10 @@
         "initPrice": 919.00,
         "imageSrc": "https://cdn1.ozone.ru/s3/multimedia-x/c500/6281354793.jpg",
         "productSrc": "https://www.ozon.ru/product/537689488/",
-        "dateOfDelivery": "За час"
+        "dateOfDelivery": "За час",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
     },
     {
         "name": "Шоколадные конфеты Mars Minis, нуга, карамель, 1 кг",
@@ -42,7 +54,10 @@
         "initPrice": 832.00,
         "imageSrc": "https://cdn1.ozone.ru/multimedia/c500/1023564818.jpg",
         "productSrc": "https://www.ozon.ru/product/mars-minis-shokoladnyy-batonchik-1-kg-137734045/?miniapp=supermarket",
-        "dateOfDelivery": "За час"
+        "dateOfDelivery": "За час",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
     },
     {
         "name": "Смартфон Vivo Y33s 4/64GB, голубой",
@@ -51,6 +66,81 @@
         "initPrice": 20980.00,
         "imageSrc": "https://cdn1.ozone.ru/s3/multimedia-p/c500/6245070097.jpg",
         "productSrc": "https://www.ozon.ru/product/smartfon-vivo-y33s-4-64gb-goluboy-479428963/",
-        "dateOfDelivery": "Послезавтра"
+        "dateOfDelivery": "Послезавтра",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
+    },
+    {
+        "name": "Alcon Контактные линзы \"Dailies Total 1\", 30 шт., -2.50 / 8.5",
+        "currentPrice": 2439.00,
+        "sale": 0.15,
+        "initPrice": 2891.00,
+        "imageSrc": "https://cdn1.ozone.ru/s3/multimedia-z/c500/6191931407.jpg",
+        "productSrc": "https://www.ozon.ru/product/alcon-kontaktnye-linzy-dailies-total-1-30pk-2-50-8-5-14-1-137764418/",
+        "dateOfDelivery": "Послезавтра",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
+    },
+    {
+        "name": "Электрогриль Tefal Optigrill Elite GC750D30, 2000 Вт",
+        "currentPrice": 33604.00,
+        "sale": 0.32,
+        "initPrice": 49740.00,
+        "imageSrc": "https://cdn1.ozone.ru/s3/multimedia-f/c500/6308493447.jpg",
+        "productSrc": "https://www.ozon.ru/product/elektrogril-tefal-optigrill-elite-gc750d30-2000-vt-322902169/",
+        "dateOfDelivery": "14 Мая",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
+    },
+    {
+        "name": "Зубная паста Biorepair Pro White сохраняющая белизну",
+        "currentPrice": 711.00,
+        "sale": 0.10,
+        "initPrice": 790.00,
+        "imageSrc": "https://cdn1.ozone.ru/s3/multimedia-b/c500/6126331139.jpg",
+        "productSrc": "https://www.ozon.ru/product/zubnaya-pasta-biorepair-pro-white-sohranyayushchaya-beliznu-75-ml-185224180/",
+        "dateOfDelivery": "Послезавтра",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
+    },
+    {
+        "name": "Батарейки щелочные (алкалиновые) Duracell",
+        "currentPrice": 449.00,
+        "sale": 0.51,
+        "initPrice": 919.00,
+        "imageSrc": "https://cdn1.ozone.ru/s3/multimedia-x/c500/6281354793.jpg",
+        "productSrc": "https://www.ozon.ru/product/537689488/",
+        "dateOfDelivery": "За час",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
+    },
+    {
+        "name": "Шоколадные конфеты Mars Minis, нуга, карамель, 1 кг",
+        "currentPrice": 729.00,
+        "sale": 0.12,
+        "initPrice": 832.00,
+        "imageSrc": "https://cdn1.ozone.ru/multimedia/c500/1023564818.jpg",
+        "productSrc": "https://www.ozon.ru/product/mars-minis-shokoladnyy-batonchik-1-kg-137734045/?miniapp=supermarket",
+        "dateOfDelivery": "За час",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
+    },
+    {
+        "name": "Смартфон Vivo Y33s 4/64GB, голубой",
+        "currentPrice": 14690.00,
+        "sale": 0.29,
+        "initPrice": 20980.00,
+        "imageSrc": "https://cdn1.ozone.ru/s3/multimedia-p/c500/6245070097.jpg",
+        "productSrc": "https://www.ozon.ru/product/smartfon-vivo-y33s-4-64gb-goluboy-479428963/",
+        "dateOfDelivery": "Послезавтра",
+        "rating": 4.5,
+        "numberOfReviews": 60,
+        "category": "Electronics"
     }
 ]

@@ -9,6 +9,7 @@ const Container = styled('div')(({ theme }) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    flexWrap: 'wrap',
 }))
 
 const Product = styled('div')(({ theme }) => ({
